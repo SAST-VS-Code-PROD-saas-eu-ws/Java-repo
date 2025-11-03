@@ -1,0 +1,22 @@
+{
+  "scanSettingsSAST": {
+    "enableScan": true,
+    "scanPullRequests": true,
+    "incrementalScan": true,
+    "findingSuppressions": "enabled",
+    "enableSecretsScan": true,
+    "baseBranches": [],
+    "snippetSize": 10
+  },
+  "checkRunSettingsSAST": {
+    "checkRunConclusionLevel": "failure",
+    "severityThreshold": "high"
+  },
+  "issueSettingsSAST": {
+    "minSeverityLevel": "high",
+    "issueType": "repo"
+  },
+  "checkRunSettings": {
+    "useMendCheckNames": true
+  }
+}
